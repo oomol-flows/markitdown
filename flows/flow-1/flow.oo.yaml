@@ -1,7 +1,7 @@
 title: "%markitdown-test-flow%"
 nodes:
   - node_id: markitdown#1
-    task: self::markitdown
+    task: self::markdown-tools
     inputs_from:
       - handle: input_file
         value: /oomol-driver/oomol-storage/pdf/样稿.pdf
