@@ -1,0 +1,58 @@
+inputs_def:
+  - handle: input_file
+    description: "%input-file-to-convert-to-markdown-pdf-docx-pptx-xlsx-images-audi%"
+    json_schema:
+      type: string
+      ui:widget: file
+    nullable: false
+  - handle: enable_plugins
+    description: "%enable-markitdown-plugins-for-enhanced-processing%"
+    json_schema:
+      type: boolean
+    value: true
+    nullable: true
+  - handle: llm_enhanced
+    description: "%use-llm-for-enhanced-processing-requires-compatible-model%"
+    json_schema:
+      type: boolean
+    value: true
+    nullable: true
+  - handle: llm_model
+    description: "%llm-model-to-use-for-enhanced-processing-e-g-gpt-4o%"
+    json_schema:
+      ui:options:
+        title: Model
+      ui:widget: llm::model
+    value:
+      model: kimi-k2-0905-preview
+      temperature: 0.5
+      top_p: 1
+      max_tokens: 262144
+    nullable: true
+
+outputs_def:
+  - handle: markdown_content
+    description: "Converted Markdown content"
+    json_schema:
+      type: string
+  - handle: success
+    description: "Conversion success status"
+    json_schema:
+      type: boolean
+  - handle: error_message
+    description: "Error message if conversion failed"
+    json_schema:
+      type: string
+    nullable: true
+
+executor:
+  name: python
+  options:
+    entry: __init__.py
+    spawn: false
+
+title: "%markitdown-converter%"
+icon: ":simple-icons:markdown:"
+description: "%convert-various-file-formats-pdf-docx-pptx-xlsx-images-audio-etc%"
+ui:
+  default_width: 584.2138979165859

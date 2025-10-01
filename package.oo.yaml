@@ -1,0 +1,13 @@
+version: 0.0.1
+scripts:
+  bootstrap: |
+    npm install
+    poetry install --no-root
+dependencies:
+  oomol-preview: 0.1.7
+icon: ./icon.png
+name: markitdown
+repository: https://github.com/oomol-flows/markitdown.git
+releaseNotes: init
+displayName: "%markitdown%"
+description: "%markitdown-oomol-markdown-pdf-word-powerpoint-excel-markitdown-m%"

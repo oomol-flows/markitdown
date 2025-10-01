@@ -1,0 +1,12 @@
+{
+  "markitdown": "MarkitDown",
+  "markitdown-oomol-markdown-pdf-word-powerpoint-excel-markitdown-m": "MarkItDown is a powerful OOMOL workflow package that can convert various document formats into clear and readable Markdown text. Whether you are working with PDFs, Word documents, PowerPoint presentations, Excel files, images, or audio files, MarkItDown can transform them into structured Markdown format for easy reading, editing, and processing.",
+  "markitdown-test-flow": "MarkItDown Test Flow",
+  "markdown-preview-1": "Markdown preview #1",
+  "markitdown-converter": "MarkItDown Converter",
+  "convert-various-file-formats-pdf-docx-pptx-xlsx-images-audio-etc": "Convert various file formats (PDF, DOCX, PPTX, XLSX, images, audio, etc.) to Markdown using Microsoft's MarkItDown library",
+  "input-file-to-convert-to-markdown-pdf-docx-pptx-xlsx-images-audi": "Input file to convert to Markdown (PDF, DOCX, PPTX, XLSX, images, audio, etc.)",
+  "enable-markitdown-plugins-for-enhanced-processing": "Enable MarkItDown plugins for enhanced processing",
+  "use-llm-for-enhanced-processing-requires-compatible-model": "Use LLM for enhanced processing (requires compatible model)",
+  "llm-model-to-use-for-enhanced-processing-e-g-gpt-4o": "LLM model to use for enhanced processing (e.g., gpt-4o)"
+}

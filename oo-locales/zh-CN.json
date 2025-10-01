@@ -1,0 +1,12 @@
+{
+  "markitdown": "MarkitDown",
+  "markitdown-oomol-markdown-pdf-word-powerpoint-excel-markitdown-m": "MarkItDown 是一个强大的 OOMOL 工作流包，可以将各种文档格式转换为清晰、可读的 Markdown 文本。无论您处理的是 PDF、Word 文档、PowerPoint 演示文稿、Excel 文件、图片，还是音频文件，MarkItDown 都能将它们转换为结构化的 Markdown 格式，便于阅读、编辑和处理。",
+  "markitdown-test-flow": "MarkItDown 测试流程",
+  "markdown-preview-1": "Markdown 预览 #1",
+  "markitdown-converter": "MarkItDown 转换器",
+  "convert-various-file-formats-pdf-docx-pptx-xlsx-images-audio-etc": "使用微软的 MarkItDown 库将各种文件格式（PDF、DOCX、PPTX、XLSX、图片、音频等）转换为 Markdown。",
+  "input-file-to-convert-to-markdown-pdf-docx-pptx-xlsx-images-audi": "要转换为 Markdown 的输入文件（PDF、DOCX、PPTX、XLSX、图片、音频等）",
+  "enable-markitdown-plugins-for-enhanced-processing": "启用 MarkItDown 插件以增强处理能力",
+  "use-llm-for-enhanced-processing-requires-compatible-model": "使用LLM进行增强处理（需要兼容的模型）",
+  "llm-model-to-use-for-enhanced-processing-e-g-gpt-4o": "用于增强处理的LLM模型（例如，gpt-4o）"
+}

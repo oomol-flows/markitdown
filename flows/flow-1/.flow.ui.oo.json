@@ -1,0 +1,21 @@
+{
+  "nodes": {
+    "markitdown#1": {
+      "rfNode": {
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "markdown_text_preview#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 509.50000000000006,
+          "y": 319.4833492778916
+        }
+      }
+    }
+  }
+}
